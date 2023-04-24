@@ -61,5 +61,5 @@ ax.set_ylabel("Temperature")
 #ax.xaxis.set_major_formatter(mpl.dates.DateFormatter('%m-%d\n%H:%M'))
 
 
-plt.title(station + ' ASOS observational data from ' + df['Date'].iloc[0] + " to " + df['Date'].iloc[-1])
+plt.title(station + ' ASOS data from ' + df['Date'].iloc[0] + " to " + df['Date'].iloc[-1])
 
