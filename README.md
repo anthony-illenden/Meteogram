@@ -1,2 +1,2 @@
 # Metogram
-![image](https://user-images.githubusercontent.com/130492486/233886269-a7c79862-c642-4568-a669-ba502cc04ebf.png)
+![image](https://user-images.githubusercontent.com/130492486/233886323-13c2b372-3b9c-470d-ba7c-21020e7ca7cf.png)
