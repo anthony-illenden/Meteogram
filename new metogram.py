@@ -48,7 +48,6 @@ ax.plot(df['Date'], df['dwpf'], c='green', label='dew')
 ax.fill_between(range(len(df['tmpf'])), df['tmpf'], color='lightcoral')
 ax.fill_between(range(len(df['dwpf'])), df['dwpf'], color='lightgreen')
 
-
 plt.xticks(range(0, len(df['Time']), 9), fontsize=8, rotation=30)
 
 ax.set_xlim(df['Date'].iloc[0], df['Date'].iloc[-1])
@@ -59,7 +58,6 @@ ax.set_xlabel("Date time")
 ax.set_ylabel("Temperature")
 
 #ax.xaxis.set_major_formatter(mpl.dates.DateFormatter('%m-%d\n%H:%M'))
-
 
 plt.title(station + ' ASOS data from ' + df['Date'].iloc[0] + " to " + df['Date'].iloc[-1])
 
